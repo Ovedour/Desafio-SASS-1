@@ -1,0 +1,57 @@
+main {
+    section {
+        h3 {
+            background-color: $main-background;
+            color: $secondary-font-color
+        }
+    }
+
+    div {
+        div {
+            div {
+                background-color: $main-background;
+                color: $main-font-color;
+            }
+        }
+    }
+
+    aside {
+        background-color: #1c1e1f !important;
+        color: beige;
+        margin-left: 300px !important;
+        margin-right: 50px !important;
+        padding-left: 100px !important;
+    }
+}
+
+
+
+
+
+
+
+.fondo {
+    z-index: -9;
+    min-height: 100%;
+    min-width: 1024px;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    opacity: 20%;
+}
+
+
+.imagenes-restaurantes {
+    width: 300px;
+    height: 300px;
+    object-fit: cover
+}
+
+.banner {
+    display: block;
+    margin: 0 auto;
+    width: 40%;
+}
+
